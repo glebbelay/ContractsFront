@@ -1,0 +1,31 @@
+.post-with-comments{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(202, 202, 202);
+    border-left: 0px;
+    border-right: 0px;
+}
+.main-post{
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.comment-button{
+    display: flex;
+    align-items: center;
+    color: rgb(69, 70, 71);
+    background-color: rgb(206, 206, 206);
+    border-width: 0px;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 8px 10px 6px 10px;
+}
+.comment-button:hover{
+    background-color: rgb(197, 197, 197);
+}
+.button-text{
+    margin: 0px 10px;
+    font-weight:600;
+
+}

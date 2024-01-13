@@ -1,0 +1,58 @@
+.post {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(202, 202, 202);
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.button-block{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-body{
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.post-body:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+.user-icon{
+    color: rgb(69, 70, 71);
+    display: flex;
+    align-items: center;
+}
+.post-buttons{
+    color: rgb(69, 70, 71);
+    background-color: rgb(206, 206, 206);
+    border-width: 0px;
+    border-radius: 15px;
+    padding: 4px 10px 0px 10px;
+}
+
+.post-buttons:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.profile-button{
+    color: rgb(69, 70, 71);
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 30px;
+    padding: 6px 6px 2px 6px;
+    margin: 10px 0px;
+}
+
+.profile-button:hover{
+    background-color: rgb(198, 198, 198);
+}
+.page{
+    max-width: 800px;
+    margin: 0 auto;
+}
