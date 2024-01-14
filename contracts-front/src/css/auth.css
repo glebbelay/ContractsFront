@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    width: 20vw;
+}
+.row{
+    margin: 0.2vh;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(69, 70, 71);
+    background-color: rgb(206, 206, 206);
+    border-width: 0;
+    border-radius: 3vh;
+    margin-top: 1.5vh;
+    padding: 0.7vh 1vw 0.7vh 1vw;
+}
+
+.submit-button:hover{
+    background-color: rgb(197, 197, 197);
+}

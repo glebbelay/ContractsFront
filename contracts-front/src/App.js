@@ -12,6 +12,8 @@ import "./App.css"
 
 import ForumPage from "./pages/ForumPage";
 import PostPage  from "./pages/PostPage";
+import AuthPage from "./pages/AuthPage";
+import ProfilePage from "./pages/ProfilePage";
 
 
 
@@ -39,6 +41,8 @@ function App() {
         <Routes>
           <Route path="/" element={<ForumPage />} /> 
           <Route path="/post" element={<PostPage/>} />
+          <Route path="/profile" element={<ProfilePage/>}/>
+          <Route path="/auth" element={<AuthPage/>}/>
 
         </Routes>
 
