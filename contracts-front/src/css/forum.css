@@ -56,3 +56,13 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+.add-post{
+    display: flex;
+    justify-content:center;
+    min-width: 75%;
+    margin-bottom: 20px;
+    background-color: rgb(237, 237, 237);
+    padding: 50px;
+    border-radius: 10px;
+}

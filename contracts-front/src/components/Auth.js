@@ -5,14 +5,15 @@ import "../css/auth.css"
 
 function AuthForm(){
     return(
+        <div className="container-form">
         <Form className="form">
-            <label className="row">Login</label>
-            <Field className="row" name="login" required/>
-            <label className="row">Password</label>
-            <Field className="row" type="password" name="password" required/>
-            <button className="submit-button" type="submit">Submit</button>
+            <label className="row">Логин</label>
+            <Field className="input" name="login" required/>
+            <label className="row">Пароль</label>
+            <Field className="input" type="password" name="password" required/>
+            <button className="submit-button" type="submit">Отправить</button>
         </Form>
-
+        </div>
     )
 }
 

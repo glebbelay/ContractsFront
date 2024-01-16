@@ -1,11 +1,10 @@
-.container{
+.container-form{
     display: flex;
-    justify-items: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+    justify-content:center;
+    margin: auto;
     text-decoration: none;
 }
+
 
 .form{
     display: flex;
@@ -15,6 +14,14 @@
 }
 .row{
     margin: 0.2vh;
+}
+
+.input{
+    margin: 0.2vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border-width: 2px;
+    border-color: rgb(68, 68, 68);
 }
 
 .submit-button{
@@ -27,6 +34,7 @@
     border-radius: 3vh;
     margin-top: 1.5vh;
     padding: 0.7vh 1vw 0.7vh 1vw;
+    font-size: 1.2rem;
 }
 
 .submit-button:hover{

@@ -29,3 +29,14 @@
     font-weight:600;
 
 }
+
+.comment-text{
+    margin-left: 20px;
+}
+
+.comment{
+    padding: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

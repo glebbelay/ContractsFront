@@ -3,11 +3,12 @@ import '../css/forum.css'
 import { Link } from 'react-router-dom'
 
 
+
 function Forum() {
 
 
   return (
-
+    
     <div className='post'>
         
         <div className='post-body'>
@@ -43,6 +44,7 @@ function Forum() {
         
         
     </div>
+   
 
   )
 }
