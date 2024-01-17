@@ -1,14 +1,33 @@
 import React from 'react'
 import '../css/forum.css'
 import { Link } from 'react-router-dom'
-
-
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 function Forum() {
+    const [posts, setPosts] = useState([]);
+    useEffect(() => {
+        const url = 'http://localhost:2281?command_type=get&method=getAllPosts&command_id=8&contract=post&args=';
+        const fetchData = async () => {
+            try {
+                const response = await axios.get(url);
+                console.log(response);
+                setPosts(response);
+            } catch (error) {
+                console.error('Ошибка при получении данных', error);
+            }
+        };
+    
+        fetchData();
+    }, []);
+
+
 
 
   return (
-    
+    <>
+    {/* {posts.map((post) =>( */}
     <div className='post'>
         
         <div className='post-body'>
@@ -18,7 +37,7 @@ function Forum() {
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
             </svg>
             <p style={{marginLeft: "5px"}}>
-                UserName
+                {posts.answer}
             </p>
         </div>
 
@@ -44,7 +63,8 @@ function Forum() {
         
         
     </div>
-   
+   {/* ))} */}
+   </>
 
   )
 }
